@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\bin\Debug\Morozov_32_1_AI.exe.config
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\bin\Debug\Morozov_32_1_AI.exe
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\bin\Debug\Morozov_32_1_AI.pdb
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\obj\Debug\Morozov_32_1_AI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\obj\Debug\Morozov_32_1_AI.FormMain.resources
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\obj\Debug\Morozov_32_1_AI.Properties.Resources.resources
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\obj\Debug\Morozov_32_1_AI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\obj\Debug\Morozov_32_1_AI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\obj\Debug\Morozov_32_1_AI.exe
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\obj\Debug\Morozov_32_1_AI.pdb
+C:\Users\user\Desktop\Morozov_32_1_AI\Morozov_32_1_AI\obj\Debug\Morozov_32_1_AI.exe.config
