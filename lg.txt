@@ -1,0 +1,21 @@
+public void Activator(double[] i)
+        {
+            inputs = i;
+            double sum = weights[0];
+            for (int j = 0; j < inputs.Length; j++)
+            {
+                sum += inputs[j] * weights[j + 1];
+            }
+
+            switch (type)
+            {
+                case NeuronType.Hidden:
+                    output = 1.0 / (1.0 + Math.Exp(-sum));
+                    derivative = output * (1.0 - output);
+                    break;
+
+                case NeuronType.Output:
+                    output = Math.Exp(sum);
+                    break;
+            }
+        }

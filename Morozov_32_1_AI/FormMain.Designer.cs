@@ -249,7 +249,7 @@ namespace Morozov_32_1_AI
             // 
             this.button_SaveTrainSample.BackColor = System.Drawing.Color.Gainsboro;
             this.button_SaveTrainSample.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_SaveTrainSample.Location = new System.Drawing.Point(10, 310);
+            this.button_SaveTrainSample.Location = new System.Drawing.Point(10, 360);
             this.button_SaveTrainSample.Name = "button_SaveTrainSample";
             this.button_SaveTrainSample.Size = new System.Drawing.Size(240, 35);
             this.button_SaveTrainSample.TabIndex = 16;
@@ -261,11 +261,11 @@ namespace Morozov_32_1_AI
             // 
             this.button_SaveTestSample.BackColor = System.Drawing.Color.Gainsboro;
             this.button_SaveTestSample.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_SaveTestSample.Location = new System.Drawing.Point(10, 350);
+            this.button_SaveTestSample.Location = new System.Drawing.Point(10, 400);
             this.button_SaveTestSample.Name = "button_SaveTestSample";
             this.button_SaveTestSample.Size = new System.Drawing.Size(240, 35);
             this.button_SaveTestSample.TabIndex = 17;
-            this.button_SaveTestSample.Text = "Сохранить Тестовый пример";
+            this.button_SaveTestSample.Text = "Сохранить тестовый пример";
             this.button_SaveTestSample.UseVisualStyleBackColor = false;
             this.button_SaveTestSample.Click += new System.EventHandler(this.button_SaveTestSample_Click_1);
             // 
@@ -286,7 +286,7 @@ namespace Morozov_32_1_AI
             // recognizebutton
             // 
             this.recognizebutton.BackColor = System.Drawing.Color.Gainsboro;
-            this.recognizebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recognizebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.recognizebutton.ForeColor = System.Drawing.Color.Black;
             this.recognizebutton.Location = new System.Drawing.Point(10, 215);
             this.recognizebutton.Name = "recognizebutton";
@@ -312,10 +312,10 @@ namespace Morozov_32_1_AI
             // button_training
             // 
             this.button_training.BackColor = System.Drawing.Color.Gainsboro;
-            this.button_training.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_training.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button_training.Location = new System.Drawing.Point(10, 280);
             this.button_training.Name = "button_training";
-            this.button_training.Size = new System.Drawing.Size(115, 25);
+            this.button_training.Size = new System.Drawing.Size(240, 35);
             this.button_training.TabIndex = 21;
             this.button_training.Text = "Обучение";
             this.button_training.UseVisualStyleBackColor = false;
@@ -331,6 +331,8 @@ namespace Morozov_32_1_AI
             legend2.Name = "Legend1";
             this.chart_Eavr.Legends.Add(legend2);
             this.chart_Eavr.Location = new System.Drawing.Point(260, 10);
+            this.chart_Eavr.MaximumSize = new System.Drawing.Size(990, 660);
+            this.chart_Eavr.MinimumSize = new System.Drawing.Size(10, 10);
             this.chart_Eavr.Name = "chart_Eavr";
             series3.BorderWidth = 3;
             series3.ChartArea = "ChartArea1";
@@ -357,10 +359,10 @@ namespace Morozov_32_1_AI
             // button_Test
             // 
             this.button_Test.BackColor = System.Drawing.Color.Gainsboro;
-            this.button_Test.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_Test.Location = new System.Drawing.Point(135, 280);
+            this.button_Test.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_Test.Location = new System.Drawing.Point(10, 320);
             this.button_Test.Name = "button_Test";
-            this.button_Test.Size = new System.Drawing.Size(115, 25);
+            this.button_Test.Size = new System.Drawing.Size(240, 35);
             this.button_Test.TabIndex = 23;
             this.button_Test.Text = "Тестирование";
             this.button_Test.UseVisualStyleBackColor = false;
@@ -374,7 +376,7 @@ namespace Morozov_32_1_AI
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(33, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 16);
+            this.label1.Size = new System.Drawing.Size(55, 16);
             this.label1.TabIndex = 24;
             this.label1.Text = "Вывод";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -403,8 +405,8 @@ namespace Morozov_32_1_AI
             // checkBox_UseDropout
             // 
             this.checkBox_UseDropout.AutoSize = true;
-            this.checkBox_UseDropout.ForeColor = System.Drawing.Color.Black;
-            this.checkBox_UseDropout.Location = new System.Drawing.Point(10, 390);
+            this.checkBox_UseDropout.ForeColor = System.Drawing.Color.White;
+            this.checkBox_UseDropout.Location = new System.Drawing.Point(10, 440);
             this.checkBox_UseDropout.MinimumSize = new System.Drawing.Size(240, 20);
             this.checkBox_UseDropout.Name = "checkBox_UseDropout";
             this.checkBox_UseDropout.Size = new System.Drawing.Size(240, 20);
@@ -445,6 +447,8 @@ namespace Morozov_32_1_AI
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
+            this.MaximumSize = new System.Drawing.Size(1280, 720);
+            this.MinimumSize = new System.Drawing.Size(1280, 720);
             this.Name = "FormMain";
             this.Text = "Morozov_32_1_AI";
             this.Load += new System.EventHandler(this.FormMain_Load);

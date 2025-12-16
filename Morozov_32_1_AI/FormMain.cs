@@ -85,10 +85,9 @@ namespace Morozov_32_1_AI
 
         private void button_training_Click(object sender, EventArgs e)
         {
-
             network.SetDropoutStatus(checkBox_UseDropout.Checked);
-
             network.Train(network);
+            
             for(int i = 0; i < network.E_error_avr.Length; i++)
             {
                 chart_Eavr.Series["Series_Eavr"].Points.AddY(network.E_error_avr[i]);
@@ -114,6 +113,7 @@ namespace Morozov_32_1_AI
 
         private void button_Test_Click(object sender, EventArgs e)
         {
+            
             network.Test(network);
             for (int i = 0; i < network.E_error_avr.Length; i++)
             {

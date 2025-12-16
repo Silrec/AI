@@ -27,7 +27,6 @@ namespace Morozov_32_1_AI.NeuroNet
             type = typeNeuron;
             weights = memoryWeights;
         }
-        ///*
         public void Activator(double[] i)
         {
             inputs = i;
@@ -49,39 +48,6 @@ namespace Morozov_32_1_AI.NeuroNet
                     break;
             }
         }
-        //*/
-        /*
-        public void Activator(double[] i)
-        {
-            inputs = i;
-            double sum = weights[0];
-            for (int j = 0; j < inputs.Length; j++)
-            {
-                sum += inputs[j] * weights[j + 1];
-            }
-
-            switch (type)
-            {
-                case NeuronType.Hidden:
-                    // Leaky ReLU activation
-                    if (sum >= 0)
-                    {
-                        output = sum;
-                        derivative = 1.0;
-                    }
-                    else
-                    {
-                        output = 0.01 * sum;  // коэффициент 0.01 для отрицательных значений
-                        derivative = 0.01;
-                    }
-                    break;
-
-                case NeuronType.Output:
-                    output = Math.Exp(sum);
-                    break;
-            }
-        }
-        */
 
     }
 
